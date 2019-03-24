@@ -1,3 +1,4 @@
+/*
 <!-- Variable definitions -->
 <Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#EAB543"/>
 <Variable name="followByEmail" description="Follow By Email Text" type="string" default="Get all latest content delivered straight to your inbox." value="Get all latest content delivered straight to your inbox."/>
