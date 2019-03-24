@@ -1,3 +1,29 @@
+<!-- Variable definitions -->
+<Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#EAB543"/>
+<Variable name="followByEmail" description="Follow By Email Text" type="string" default="Get all latest content delivered straight to your inbox." value="Get all latest content delivered straight to your inbox."/>
+<Group description="Theme Colors" selector="body">
+ <Variable name="main.color" description="Theme Color" type="color" default="#ff3d00" value="#4090f1"/>
+  <Variable name="main.dark.color" description="Dark Color" type="color" default="#202020" value="#202020"/>
+  <Variable name="menu.color" description="Menu Color" type="color" default="#ffffff" value="#4090f1"/>
+  <Variable name="title.color" description="Title Color" type="color" default="#333333" value="#333333"/>
+  <Variable name="title.hover" description="Title Color on Hover" type="color" default="$(main.color)" value="#ff3d00"/>
+  <Variable name="footer.color" description="Footer Color" type="color" default="#f1ffff" value="#f1ffff"/>
+</Group>
+<Group description="Theme Body" selector="body">
+  <Variable name="body.background.color" description="Body Background Color" type="color" default="#f8f8f8"  value="#ffffff"/>
+  <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) url() repeat fixed top left" value="$(color) url() repeat fixed top left"/>
+  <Variable name="body.text.color" description="Text Color" type="color" default="#2e2e2e"  value="#2e2e2e"/>
+  <Variable name="body.link.color" description="Link Color" type="color" default="$(main.color)"  value="#4090f1"/>
+</Group>
+<!-- Extra Variables -->
+<Variable name="body.text.font" description="Font" hideEditor="true" type="font" default="14px 'Droid Serif'" value="14px &#39;Droid Serif&#39;"/>
+<Variable name="posts.background.color" description="Post background color" hideEditor="true" type="color" default="#ffffff"  value="#ffffff"/>
+<Variable name="tabs.font" description="Font 2" hideEditor="true" type="font" default="14px 'Droid Serif'" value="14px &#39;PT+Serif&#39;, sans-serif"/>
+<Variable name="posts.title.color" description="Post title color" hideEditor="true" type="color" default="#333333" value="#333333"/>
+<Variable name="posts.text.color" description="Post text color" hideEditor="true" type="color" default="#2e2e2e" value="#2e2e2e"/>
+<Variable name="posts.icons.color" description="Post icons color" hideEditor="true" type="color" default="$(main.color)" value="#ff3d00"/>
+<Variable name="labels.background.color" description="Label background color" hideEditor="true" type="color" default="$(main.color)" value="#4090f1"/>
+*/
 a,
  abbr,
  acronym,
